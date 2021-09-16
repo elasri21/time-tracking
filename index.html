@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+    <div id="main-page">
+        <div data-index="0" class="grid-section hide">
+            <div class="person">
+                <div class="profile">
+                    <img src="images/image-jeremy.png" alt="">
+                    <div>
+                        <p>Report for</p>
+                        <p class="name">Jeremy<br> Robson</p>
+                    </div>
+                </div>
+                <div class="daily">
+                    <p class="btn picked" data-index="0">Daily</p>
+                    <p data-index="1" class="btn">Weekly</p>
+                    <p class="btn" data-index="2">Monthly</p>
+                </div>
+            </div>
+            <article class="report work">
+                <div class="info">
+                    <div class="head">
+                        <p>Work</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">5hrs</p>
+                        <p class="history">Last day - 7hrs</p>
+                    </div>
+                </div>
+            </article>
+            <article class="report play">
+                <div class="info">
+                    <div class="head">
+                        <p>Play</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">1hrs</p>
+                        <p class="history">Last day - 2hrs</p>
+                    </div>
+                </div>
+            </article>
+            <article class="report study">
+                <div class="info">
+                    <div class="head">
+                        <p>Study</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">1hrs</p>
+                        <p class="history">Last day - 7hrs</p>
+                    </div>
+                </div>
+            </article>
+            <article class="report exercise">
+                <div class="info">
+                    <div class="head">
+                        <p>Exercise</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">1hrs</p>
+                        <p class="history">Last day - 1hrs</p>
+                    </div>
+                </div>
+            </article>
+            <article class="report social">
+                <div class="info">
+                    <div class="head">
+                        <p>Social</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">1hrs</p>
+                        <p class="history">Last day- 3hrs</p>
+                    </div>
+                </div>
+            </article>
+            <article class="report self-care">
+                <div class="info">
+                    <div class="head">
+                        <p>Self Care</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">0hrs</p>
+                        <p class="history">Last Week - 1hrs</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div data-index="1" class="grid-section show">
+            <div class="person">
+                <div class="profile">
+                    <img src="images/image-jeremy.png" alt="">
+                    <div>
+                        <p>Report for</p>
+                        <p class="name">Jeremy<br> Robson</p>
+                    </div>
+                </div>
+                <div class="daily">
+                    <p class="btn" data-index="0">Daily</p>
+                    <p data-index="1" class="picked btn">Weekly</p>
+                    <p class="btn" data-index="2">Monthly</p>
+                </div>
+            </div>
+            <article class="report work">
+                <div class="info">
+                    <div class="head">
+                        <p>Work</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">32hrs</p>
+                        <p class="history">Last Week - 36hrs</p>
+                    </div>
+                </div>
+            </article>
+            <article class="report play">
+                <div class="info">
+                    <div class="head">
+                        <p>Play</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">10hrs</p>
+                        <p class="history">Last Week - 8hrs</p>
+                    </div>
+                </div>
+            </article>
+            <article class="report study">
+                <div class="info">
+                    <div class="head">
+                        <p>Study</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">4hrs</p>
+                        <p class="history">Last Week - 7hrs</p>
+                    </div>
+                </div>
+            </article>
+            <article class="report exercise">
+                <div class="info">
+                    <div class="head">
+                        <p>Exercise</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">4hrs</p>
+                        <p class="history">Last Week - 5hrs</p>
+                    </div>
+                </div>
+            </article>
+            <article class="report social">
+                <div class="info">
+                    <div class="head">
+                        <p>Social</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">5hrs</p>
+                        <p class="history">Last Week- 10hrs</p>
+                    </div>
+                </div>
+            </article>
+            <article class="report self-care">
+                <div class="info">
+                    <div class="head">
+                        <p>Self Care</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">2hrs</p>
+                        <p class="history">Last Week - 2hrs</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div data-index="2" class="grid-section hide">
+            <div class="person">
+                <div class="profile">
+                    <img src="images/image-jeremy.png" alt="">
+                    <div>
+                        <p>Report for</p>
+                        <p class="name">Jeremy<br> Robson</p>
+                    </div>
+                </div>
+                <div class="daily">
+                    <p class="btn" data-index="0">Daily</p>
+                    <p data-index="1" class="btn">Weekly</p>
+                    <p class="btn picked" data-index="2">Monthly</p>
+                </div>
+            </div>
+            <article class="report work">
+                <div class="info">
+                    <div class="head">
+                        <p>Work</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">103hrs</p>
+                        <p class="history">Last Month - 128hrs</p>
+                    </div>
+                </div>
+            </article>
+            <article class="report play">
+                <div class="info">
+                    <div class="head">
+                        <p>Play</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">23hrs</p>
+                        <p class="history">Last Month - 29hrs</p>
+                    </div>
+                </div>
+            </article>
+            <article class="report study">
+                <div class="info">
+                    <div class="head">
+                        <p>Study</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">13hrs</p>
+                        <p class="history">Last Month - 19hrs</p>
+                    </div>
+                </div>
+            </article>
+            <article class="report exercise">
+                <div class="info">
+                    <div class="head">
+                        <p>Exercise</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">11hrs</p>
+                        <p class="history">Last Month - 18hrs</p>
+                    </div>
+                </div>
+            </article>
+            <article class="report social">
+                <div class="info">
+                    <div class="head">
+                        <p>Social</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">21hrs</p>
+                        <p class="history">Last Month- 23hrs</p>
+                    </div>
+                </div>
+            </article>
+            <article class="report self-care">
+                <div class="info">
+                    <div class="head">
+                        <p>Self Care</p>
+                        <p><img src="images/icon-ellipsis.svg" alt=""></p>
+                    </div>
+                    <div class="body">
+                        <p class="hours">7hrs</p>
+                        <p class="history">Last Month - 11hrs</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+    <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/elasri21" target="_blank">elasri21</a>.
+    </p>
+    <script src="main.js"></script>
+</body>
+</html>
